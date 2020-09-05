@@ -1,12 +1,10 @@
 const cloudinary = require('cloudinary')
-let multiparty = require('multiparty')
-let http = require('http')
-let util = require('util')
+const multiparty = require('multiparty')
 
 cloudinary.config({
-    cloud_name: 'dtoxfmz86',
-    api_key: 234177866619418,
-    api_secret: 'e_Y2MlfDz62e8vZq0Yjmhf5qr1U'
+    cloud_name: 'XXXXXX',
+    api_key: XXXXXX,
+    api_secret: 'XXXXXX'
 })
 
 module.exports = (req, res) => {
